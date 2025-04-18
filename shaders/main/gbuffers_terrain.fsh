@@ -34,7 +34,7 @@ void main() {
 	vec3 lightmapColor = texture2D(lightmap, lightCoord).rgb;
 
 	if(lightCoord.y <= 0.95) {
-		lightmapColor *= vec3(0.7) * (lightCoord.x + 0.7); // 保持横向光照渐变
+		lightmapColor *= vec3(0.7) * (lightCoord.x + 0.7);
 	}
 
 	vec3 blockLight = getBlockLight(lightCoord);
