@@ -9,7 +9,7 @@ const mat3 VINTAGE_MATRIX = mat3(
 );
 const float FADE_STRENGTH = 0.3;    
 const vec3 FADE_COLOR = vec3(0.9, 0.8, 0.7);    
-const float CONTRAST = 2.4;    
+const float CONTRAST = 2.2;
 const float BRIGHTNESS = 0.05;    
 const float SATURATION = 1.2;    
 const float EXPOSURE = 1.3;    
