@@ -12,14 +12,10 @@ uniform float near;
 uniform float far;
 uniform float frameTimeCounter;
 
-// ========== 可配置参数 ==========
-// 颜色设置
 #define FLASHLIGHT_COLOR   vec3(1.0, 0.6, 0.3)  // 核心光颜色
 #define EDGE_COLOR         vec3(0.8, 0.5, 0.3)  // 边缘光颜色
 #define COLOR_INTENSITY    0.9                    // 整体强度[0.3 0.5 0.8 1.2 1.5 2.0]
 #define COLOR_FALLOFF      0.5                    // 颜色过渡锐度[0.3 0.5 0.8 1.2 1.5 1.8 2.2 2.5 2.8 3.3]
-
-// 距离设置
 #define MAX_DISTANCE       12.0                   // 最大照射距离 [5.0 8.0 11.0 12.0 14.0 18.0 22.0]
 #define CORE_DISTANCE      8.0                    // 核心光有效距离
 #define DEPTH_ATTEN        0.12                   // 深度衰减
