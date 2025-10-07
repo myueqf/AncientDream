@@ -1,6 +1,6 @@
 #version 120 compatibility
 #define gbuffers_skybasic
-// 天空雾效
+
 uniform mat4 gbufferModelView;
 uniform mat4 gbufferModelViewInverse;
 
